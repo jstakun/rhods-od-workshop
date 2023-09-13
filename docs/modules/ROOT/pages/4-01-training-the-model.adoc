@@ -4,7 +4,9 @@ NOTE: This is a new and advanced section of the workshop.
 
 Now it is time to fine tune and train a model using RHODS and Data Science Pipelines.
 
-* In Jupyter, go to the *model-training* folder
+* In Jupyter, go to the *model-training* folder and open *model-training.pipeline*
+* Before you can submit this pipeline for execution, you will have to update a few configuration parameters via the Open Panel button in the top right corner of the pipeline editor window:
+** In Data Volumes, under Persistent Volume Claim Name enter your user ID
 * Run the *model-training.pipeline*
 
 Depending on the resources available, this may take some time.
