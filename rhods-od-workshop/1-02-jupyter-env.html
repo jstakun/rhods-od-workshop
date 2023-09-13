@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>1.2 The Jupyter environment :: Object Detection Workshop</title>
-    <link rel="canonical" href="https://codrinbucur.github.io/rhods-od-workshop/rhods-od-workshop/1-02-jupyter-env.html">
+    <link rel="canonical" href="https://jstakun.github.io/rhods-od-workshop/rhods-od-workshop/1-02-jupyter-env.html">
     <link rel="prev" href="1-01-project-setup.html">
     <link rel="next" href="1-03-notebooks.html">
     <meta name="generator" content="Antora 3.0.0">
@@ -15,7 +15,7 @@
   <nav class="navbar">
     <div class="navbar-brand">
       <a class="navbar-item" href="https://developers.redhat.com" target="_blank"><img src="../_/img/RHDLogo.svg" height="40px" alt="Red Hat Developer Program"></a>
-      <a class="navbar-item" style="font-size: 24px; color: white" href="https://codrinbucur.github.io/rhods-od-workshop">Object Detection Workshop</a>
+      <a class="navbar-item" style="font-size: 24px; color: white" href="https://jstakun.github.io/rhods-od-workshop">Object Detection Workshop</a>
       <button class="navbar-burger" data-target="topbar-nav">
         <span></span>
         <span></span>
@@ -56,7 +56,7 @@
     <span class="nav-text">1. Jupyter Notebooks</span>
 <ul class="nav-list">
   <li class="nav-item" data-depth="2">
-    <a class="nav-link" href="1-01-project-setup.html">1. Settin up your Data Science Project</a>
+    <a class="nav-link" href="1-01-project-setup.html">1. Setting up your Data Science Project</a>
   </li>
   <li class="nav-item is-current-page" data-depth="2">
     <a class="nav-link" href="1-02-jupyter-env.html">2. The Jupyter Environment</a>
@@ -127,7 +127,7 @@
     <li><a href="1-02-jupyter-env.html">2. The Jupyter Environment</a></li>
   </ul>
 </nav>
-  <div class="edit-this-page"><a href="https://github.com/codrinbucur/rhods-od-workshop/edit/master/docs/modules/ROOT/pages/1-02-jupyter-env.adoc">Edit this Page</a></div>
+  <div class="edit-this-page"><a href="https://github.com/jstakun/rhods-od-workshop/edit/master/docs/modules/ROOT/pages/1-02-jupyter-env.adoc">Edit this Page</a></div>
   </div>
   <div class="content">
 <article class="doc">
@@ -201,34 +201,7 @@
 </div>
 </div>
 <div class="paragraph">
-<p>Now let&#8217;s open another tab and connect to your <code>S3 Provider Console</code> with the URL provided by the workshop instructor.</p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-For simplicity, we are leveraging <a href="https://min.io/product/private-cloud-red-hat-openshift">MinIO</a> in this case as the S3 Provider and an instance has already been deployed on OpenShift next to RHODS. S3 buckets and users have been already provisioned for your convenience as well. For production environments we recommend scalable solutions like <a href="https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation">OpenShift Data Foundations (ODF)</a> or solutions from other storage vendors.
-</td>
-</tr>
-</table>
-</div>
-<div class="paragraph">
-<p>Log into the S3 Provider Console with the URL and credentials provided. You should be able to see the dashboard, that looks like this:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="_images/notebooks/minio_console.png" alt="S3 Provider Console">
-</div>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p>Use the <code>Object Browser</code> to navigate to the bucket associated with your user name.</p>
-</li>
-</ul>
+<p>Now let&#8217;s open another tab and connect to your <code>S3 Browser Console</code> at: <a href="https://s3browser-USERX.apps.DOMAIN" class="bare">https://s3browser-USERX.apps.DOMAIN</a>. Replace USERX with your user id, and DOMAIN with cluster domain (copy from <strong>Red Hat OpenShift Data Science</strong> Console URL)</p>
 </div>
 <div class="paragraph">
 <p>You can now browse the content of your S3 bucket including a number of images and the model artifact. We will access and work with that model in the following sections.</p>
@@ -240,7 +213,7 @@ For simplicity, we are leveraging <a href="https://min.io/product/private-cloud-
 <p><a href="1-03-notebooks.html" class="xref page">Ready? Let&#8217;s go to the next section.</a></p>
 </div>
 <nav class="pagination">
-  <span class="prev"><a href="1-01-project-setup.html">1. Settin up your Data Science Project</a></span>
+  <span class="prev"><a href="1-01-project-setup.html">1. Setting up your Data Science Project</a></span>
   <span class="next"><a href="1-03-notebooks.html">3. Using Notebooks</a></span>
 </nav>
 </article>
