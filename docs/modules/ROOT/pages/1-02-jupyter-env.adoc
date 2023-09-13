@@ -36,15 +36,7 @@ image::notebooks/od_folder_click.png[alt text]
 image::notebooks/od_folder.png[alt text]
 
 
-Now let's open another tab and connect to your `S3 Provider Console` with the URL provided by the workshop instructor.
-
-NOTE: For simplicity, we are leveraging https://min.io/product/private-cloud-red-hat-openshift[MinIO] in this case as the S3 Provider and an instance has already been deployed on OpenShift next to RHODS. S3 buckets and users have been already provisioned for your convenience as well. For production environments we recommend scalable solutions like https://www.redhat.com/en/technologies/cloud-computing/openshift-data-foundation[OpenShift Data Foundations (ODF)] or solutions from other storage vendors.
-
-Log into the S3 Provider Console with the URL and credentials provided. You should be able to see the dashboard, that looks like this:
-
-image::notebooks/minio_console.png[S3 Provider Console]
-
-* Use the `Object Browser` to navigate to the bucket associated with your user name.
+Now let's open another tab and connect to your `S3 Browser Console` at: https://s3browser-USERX.apps.DOMAIN. Replace USERX with your user id, and DOMAIN with cluster domain (copy from *Red Hat OpenShift Data Science* Console URL)
 
 You can now browse the content of your S3 bucket including a number of images and the model artifact. We will access and work with that model in the following sections.
 
