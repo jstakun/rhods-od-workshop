@@ -14,7 +14,7 @@ NOTE: Elyra is an extension of JupyterLab, which offers a graphical editor for p
 
 image::notebooks/open-panel.png[Open Panel]
 
-** In *Data Volumes*, under *Persistent Volume Claim Name* enter your user ID.
+* In *Data Volumes*, under *Persistent Volume Claim Name* enter your user ID.
 
 * Save the pipeline (third button in top toolbar of the pipeline editor).
 
