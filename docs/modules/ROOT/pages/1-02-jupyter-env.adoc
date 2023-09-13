@@ -36,7 +36,7 @@ image::notebooks/od_folder_click.png[alt text]
 image::notebooks/od_folder.png[alt text]
 
 
-Now let's open another tab and connect to your `S3 Browser Console` at: https://s3browser-USERX.apps.DOMAIN. Replace USERX with your user id, and DOMAIN with cluster domain (copy from *Red Hat OpenShift Data Science* Console URL)
+Now let's open another tab and connect to your `S3 Browser Console` at: https://s3browser-USERX.apps.DOMAIN. Replace USERX with your user id, and DOMAIN with cluster domain (copy from RHODS Console or OpenShift Console URL)
 
 You can now browse the content of your S3 bucket including a number of images and the model artifact. We will access and work with that model in the following sections.
 
