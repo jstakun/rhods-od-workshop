@@ -205,10 +205,24 @@ Make sure you use the specific <code>class_labels = ['Laptop', 'Computer keyboar
 <li>
 <p>In addition, while in the <strong>OpenShift Console</strong> create a ConfigMap containing the class labels 'Laptop', 'Computer keyboard', 'Table'</p>
 </li>
+</ul>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="app/configmap.png" alt="alt text">
+</div>
+</div>
+<div class="ulist">
+<ul>
 <li>
 <p>In the same service application, add also the CLASS_LABELS environmental variable pointing to the created ConfigMap</p>
 </li>
 </ul>
+</div>
+<div class="imageblock unresolved">
+<div class="content">
+<img src="app/deployment.png" alt="alt text">
+</div>
 </div>
 <div class="paragraph">
 <p>Once both environmental variables have been updated/added, the application will be redeployed. Like in section 2.2, you will see that a build is going on from the build icon:</p>
