@@ -18,9 +18,9 @@ image::notebooks/open-panel.png[Open Panel]
 
 * Save the pipeline (third button in top toolbar of the pipeline editor).
 
-* Submit the pipeline by selecting `Run Pipeline` (second button in top toolbar). Change the pipeline name to your user ID to distinguish its run from those of the other workshop participants. Click `OK`.
+* Submit the pipeline by selecting `Run Pipeline` (second button in top toolbar). Click `OK`.
 
-* Revisit the RHODS Dashboard. In `Applications` -> `Enabled` -> `Data Science Pipelines`, select `Launch Application`. Authenticate and grant the requested permissions.
+* Revisit the RHODS Dashboard. Open `Data Science Pipelines` -> `Pipelines`. 
 
 * In the Pipelines Dashboard, you can track all submitted pipelines including their versions. To monitor your pipeline, select `Runs` in the left menu. Each run represents an execution of a given pipeline. Find the run that you submitted and click on its name.
 
