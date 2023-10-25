@@ -33,7 +33,7 @@ image::s2i/dev-view.png[Developer Perspective]
 
 == Add an Application from Git
 
-* From the `+Add` menu, click on the `Import from Git` tile:
+* Click on your project name to enter it. From the `+Add` menu, click on the `Import from Git` tile:
 
 image::s2i/from-git.png[Add from git, 800]
 
